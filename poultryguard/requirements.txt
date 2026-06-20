@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+gradio==4.44.0
+requests==2.32.3
+Pillow==10.4.0
+transformers==4.44.2
+mcp==1.2.0
+
+# --- Vision model dependencies ---
+# Install torch SEPARATELY per backend/README.md instructions, since the
+# correct wheel depends on whether you're running on an AMD (ROCm), NVIDIA
+# (CUDA), or CPU-only machine. Do not blindly `pip install torch` here.
+
+# --- Optional: real Google ADK integration (backend/agents/adk_integration.py) ---
+# google-adk

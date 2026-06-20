@@ -1,0 +1,22 @@
+{
+  "_note": "PLACEHOLDER Twi translations for demo purposes. Have a native Twi speaker / veterinary translator review before production use.",
+  "ui": {
+    "title": "Hwɛ Wo Nkokɔ Yare (Check Your Bird's Sickness)",
+    "upload_prompt": "Fa wo akokɔ mfoni gu ha (Upload your bird's photo here)",
+    "analyzing": "Yɛrehwehwɛ mu... (Analyzing...)",
+    "disease_label": "Yare a wahu",
+    "confidence_label": "Sɛnea yɛahu pa ara",
+    "treatment_label": "Nneɛma a ɛsɛ wɔyɛ",
+    "feed_label": "Aduan a ɛbɛboa no",
+    "agrovet_label": "Mmea a wobɛtumi atɔ nnuru",
+    "quarantine_label": "Ɛsɛ sɛ wode no si nkyɛn anaa?"
+  },
+  "disease_names": {
+    "Newcastle Disease": "Newcastle Yare",
+    "Fowl Pox": "Akokɔ Nsisiw Yare",
+    "Coccidiosis": "Coccidiosis Yare",
+    "No Disease Detected": "Yare Biara Nni Mu"
+  },
+  "quarantine_yes": "Aane - fa no si nkyɛn ntɛm (Yes - isolate it immediately)",
+  "quarantine_no": "Daabi - ɛho nhia (No - not necessary)"
+}

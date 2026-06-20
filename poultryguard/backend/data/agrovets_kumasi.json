@@ -1,0 +1,45 @@
+{
+  "_note": "PLACEHOLDER agrovet directory for demo purposes. Replace with verified, geocoded agrovet listings (e.g. from Google Places or a local agricultural directory) before production use.",
+  "agrovets": [
+    {
+      "name": "Kumasi Central Agrovet",
+      "area": "Adum, Kumasi",
+      "lat": 6.6926,
+      "lon": -1.6233,
+      "phone": "+233-24-000-0001",
+      "services": ["vaccines", "feed", "veterinary supplies"]
+    },
+    {
+      "name": "Asokwa Farm Supplies",
+      "area": "Asokwa, Kumasi",
+      "lat": 6.6612,
+      "lon": -1.6122,
+      "phone": "+233-24-000-0002",
+      "services": ["feed", "anticoccidials", "disinfectants"]
+    },
+    {
+      "name": "Suame AgroCare",
+      "area": "Suame, Kumasi",
+      "lat": 6.7156,
+      "lon": -1.6334,
+      "phone": "+233-24-000-0003",
+      "services": ["vaccines", "veterinary supplies"]
+    },
+    {
+      "name": "Tafo Poultry & Farm Store",
+      "area": "Tafo, Kumasi",
+      "lat": 6.7244,
+      "lon": -1.5944,
+      "phone": "+233-24-000-0004",
+      "services": ["feed", "vaccines", "feed additives"]
+    },
+    {
+      "name": "Bantama Vet Supplies",
+      "area": "Bantama, Kumasi",
+      "lat": 6.6989,
+      "lon": -1.6311,
+      "phone": "+233-24-000-0005",
+      "services": ["vaccines", "anticoccidials", "feed"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_note": "PLACEHOLDER prices in Ghana Cedis (GHS) for demo purposes. Replace with real, dated agrovet/market prices for Kumasi before production use.",
+  "currency": "GHS",
+  "last_updated": "2026-06-01",
+  "ingredients_per_kg": {
+    "maize_bran": 4.5,
+    "soybean_meal": 9.2,
+    "fish_meal": 14.0,
+    "wheat_bran": 5.0,
+    "premix_vitamin": 22.0,
+    "limestone": 2.0,
+    "salt": 3.5,
+    "electrolyte_vitamin_powder": 35.0
+  }
+}

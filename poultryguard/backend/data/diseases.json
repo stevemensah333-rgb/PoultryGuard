@@ -1,0 +1,68 @@
+{
+  "_note": "PLACEHOLDER DATA for demo purposes. Replace with veterinary-verified content before any real-world use. Sources should be added (e.g. Ghana Ministry of Food and Agriculture, FAO poultry health guides) before production deployment.",
+  "diseases": [
+    {
+      "id": "newcastle_disease",
+      "name": "Newcastle Disease",
+      "clip_labels": ["a sick chicken with twisted neck and breathing problems", "a chicken with newcastle disease symptoms"],
+      "symptoms": ["twisted neck (torticollis)", "greenish watery diarrhea", "gasping/labored breathing", "drop in egg production", "sudden death in flock"],
+      "treatment_steps": [
+        "Isolate visibly sick birds from the rest of the flock immediately.",
+        "There is no cure once symptoms appear — focus on supportive care: warmth, clean water, electrolytes.",
+        "Vaccinate the remaining healthy flock immediately (e.g. with I-2 or La Sota strain vaccine) to limit spread.",
+        "Disinfect housing, feeders, and waterers with a household disinfectant (e.g. diluted bleach 1:10).",
+        "Contact a local veterinary officer or agricultural extension agent to confirm diagnosis and report the outbreak."
+      ],
+      "quarantine": {
+        "required": true,
+        "reason": "Newcastle Disease is highly contagious and spreads rapidly through respiratory droplets, contaminated feed/water, and equipment. It can wipe out an entire flock within days."
+      },
+      "recovery_feed_additions": ["extra vitamin A and D3", "electrolyte/vitamin water mix", "easily digestible mash"]
+    },
+    {
+      "id": "fowl_pox",
+      "name": "Fowl Pox",
+      "clip_labels": ["a chicken with wart-like skin lesions on its comb and wattle", "a chicken with fowl pox lesions"],
+      "symptoms": ["wart-like nodules on comb, wattle, and skin", "lesions in the mouth and throat (wet form)", "reduced appetite", "mild drop in egg production"],
+      "treatment_steps": [
+        "Isolate affected birds to reduce spread, though fowl pox spreads relatively slowly.",
+        "Apply a mild antiseptic (e.g. diluted iodine) to skin lesions to prevent secondary bacterial infection.",
+        "Ensure good nutrition to support the bird's immune system during recovery (usually 3-4 weeks).",
+        "Vaccinate unaffected birds in the flock if pox is confirmed, as there is no treatment for the virus itself.",
+        "Control mosquitoes and biting insects around the coop, as they are the main carriers."
+      ],
+      "quarantine": {
+        "required": true,
+        "reason": "Fowl pox spreads through mosquito bites and direct contact with lesions or contaminated surfaces; isolating sick birds reduces transmission risk while the rest of the flock is vaccinated."
+      },
+      "recovery_feed_additions": ["extra vitamin A", "high-protein feed to support skin healing"]
+    },
+    {
+      "id": "coccidiosis",
+      "name": "Coccidiosis",
+      "clip_labels": ["a chicken with bloody diarrhea and ruffled feathers", "a lethargic chicken with bloody droppings"],
+      "symptoms": ["bloody or watery diarrhea", "ruffled feathers", "lethargy and huddling", "pale comb", "weight loss"],
+      "treatment_steps": [
+        "Move birds to a dry, clean area — coccidiosis thrives in damp, dirty litter.",
+        "Administer an anticoccidial medication (e.g. amprolium) in drinking water, following the dosage on the product label.",
+        "Provide clean water with electrolytes to prevent dehydration.",
+        "Remove wet litter and replace with dry bedding immediately.",
+        "Consult a local agrovet for the correct anticoccidial product and dosage for your flock size."
+      ],
+      "quarantine": {
+        "required": false,
+        "reason": "Coccidiosis is caused by parasites already present in the environment rather than direct bird-to-bird contagion in the way viral diseases spread; the priority is treating affected birds and cleaning the environment rather than isolating them."
+      },
+      "recovery_feed_additions": ["electrolyte and vitamin water", "easily digestible starter feed"]
+    },
+    {
+      "id": "healthy",
+      "name": "No Disease Detected",
+      "clip_labels": ["a healthy active chicken with bright eyes and smooth feathers"],
+      "symptoms": [],
+      "treatment_steps": ["No treatment needed. Continue routine flock monitoring and good biosecurity practices."],
+      "quarantine": {"required": false, "reason": "No signs of illness detected."},
+      "recovery_feed_additions": []
+    }
+  ]
+}
